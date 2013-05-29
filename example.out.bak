@@ -9,12 +9,29 @@
 \BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Data Matrix编码规则}{section.1.3}% 9
 \BOOKMARK [1][-]{section.1.4}{1.4 二维条码研究现状}{chapter.1}% 10
 \BOOKMARK [1][-]{section.1.5}{1.5 二维条码识别技术}{chapter.1}% 11
-\BOOKMARK [0][-]{chapter.2}{第二章 \040表格、图片和公式}{}% 12
-\BOOKMARK [1][-]{section.2.1}{2.1 数学公式}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.2}{2.2 表格}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.3}{2.3 图片}{chapter.2}% 15
-\BOOKMARK [0][-]{chapter.3}{第三章 \040关于参考文献}{}% 16
-\BOOKMARK [0][-]{chapter.4}{第四章 \040写在最后}{}% 17
-\BOOKMARK [0][-]{appendix.A}{附录 A \040Tips：如何得到高质量的图片}{}% 18
-\BOOKMARK [0][-]{appendix*.12}{参考文献}{}% 19
-\BOOKMARK [0][-]{appendix*.13}{致 \040谢}{}% 20
+\BOOKMARK [2][-]{subsection.1.5.1}{1.5.1 图像预处理}{section.1.5}% 12
+\BOOKMARK [2][-]{subsection.1.5.2}{1.5.2 条码初定位}{section.1.5}% 13
+\BOOKMARK [2][-]{subsection.1.5.3}{1.5.3 条码精确定位}{section.1.5}% 14
+\BOOKMARK [2][-]{subsection.1.5.4}{1.5.4 条码图像纠偏}{section.1.5}% 15
+\BOOKMARK [2][-]{subsection.1.5.5}{1.5.5 RS纠错}{section.1.5}% 16
+\BOOKMARK [2][-]{subsection.1.5.6}{1.5.6 0/1识别和解码}{section.1.5}% 17
+\BOOKMARK [0][-]{chapter.2}{第二章 \040二维条码中的图像处理方法和定位技术}{}% 18
+\BOOKMARK [0][-]{chapter.3}{第三章 \040OpenCV机器视觉库介绍}{}% 19
+\BOOKMARK [0][-]{chapter.4}{第四章 \040Data Matrix快速定位算法研究}{}% 20
+\BOOKMARK [1][-]{section.4.1}{4.1 主要思路}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{4.2 粗定位算法}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{4.3 精确定位算法}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.4}{4.4 OpenCV实现}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.5}{4.5 实验结果}{chapter.4}% 25
+\BOOKMARK [0][-]{chapter.5}{第五章 \040总结}{}% 26
+\BOOKMARK [1][-]{section.5.1}{5.1 工作总结}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.2}{5.2 研究展望}{chapter.5}% 28
+\BOOKMARK [0][-]{chapter.6}{第六章 \040表格、图片和公式}{}% 29
+\BOOKMARK [1][-]{section.6.1}{6.1 数学公式}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.2}{6.2 表格}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.3}{6.3 图片}{chapter.6}% 32
+\BOOKMARK [0][-]{chapter.7}{第七章 \040关于参考文献}{}% 33
+\BOOKMARK [0][-]{chapter.8}{第八章 \040写在最后}{}% 34
+\BOOKMARK [0][-]{appendix.A}{附录 A \040Tips：如何得到高质量的图片}{}% 35
+\BOOKMARK [0][-]{appendix*.12}{参考文献}{}% 36
+\BOOKMARK [0][-]{appendix*.13}{致 \040谢}{}% 37
