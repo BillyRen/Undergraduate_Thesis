@@ -19,6 +19,7 @@
 \usepackage{textcomp}
 \usepackage{multirow}
 \usepackage{marvosym}  % 画笑脸用的
+\usepackage{listings}  % 显示代码
 
 \begin{document}
 
@@ -42,9 +43,9 @@
 
 
   % 诚信承诺书
-  \classes{光电080X}
-  \studentid{308010xx}
-  \signitureyear{2012}
+  \classes{光电0903}
+  \studentid{3090000375}
+  \signitureyear{2013}
   \signituremonth{05}
   \signitureday{26}
 

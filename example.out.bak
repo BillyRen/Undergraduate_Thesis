@@ -16,22 +16,32 @@
 \BOOKMARK [2][-]{subsection.1.5.5}{1.5.5 RS纠错}{section.1.5}% 16
 \BOOKMARK [2][-]{subsection.1.5.6}{1.5.6 0/1识别和解码}{section.1.5}% 17
 \BOOKMARK [0][-]{chapter.2}{第二章 \040二维条码中的图像处理方法和定位技术}{}% 18
-\BOOKMARK [0][-]{chapter.3}{第三章 \040OpenCV机器视觉库介绍}{}% 19
-\BOOKMARK [0][-]{chapter.4}{第四章 \040Data Matrix快速定位算法研究}{}% 20
-\BOOKMARK [1][-]{section.4.1}{4.1 主要思路}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{4.2 粗定位算法}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.3}{4.3 精确定位算法}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.4}{4.4 OpenCV实现}{chapter.4}% 24
-\BOOKMARK [1][-]{section.4.5}{4.5 实验结果}{chapter.4}% 25
-\BOOKMARK [0][-]{chapter.5}{第五章 \040总结}{}% 26
-\BOOKMARK [1][-]{section.5.1}{5.1 工作总结}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.2}{5.2 研究展望}{chapter.5}% 28
-\BOOKMARK [0][-]{chapter.6}{第六章 \040表格、图片和公式}{}% 29
-\BOOKMARK [1][-]{section.6.1}{6.1 数学公式}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.2}{6.2 表格}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.3}{6.3 图片}{chapter.6}% 32
-\BOOKMARK [0][-]{chapter.7}{第七章 \040关于参考文献}{}% 33
-\BOOKMARK [0][-]{chapter.8}{第八章 \040写在最后}{}% 34
-\BOOKMARK [0][-]{appendix.A}{附录 A \040Tips：如何得到高质量的图片}{}% 35
-\BOOKMARK [0][-]{appendix*.12}{参考文献}{}% 36
-\BOOKMARK [0][-]{appendix*.13}{致 \040谢}{}% 37
+\BOOKMARK [1][-]{section.2.1}{2.1 Ostu法（大津法）}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.2}{2.2 边缘检测方法}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 微分算子法}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 拉普拉斯高斯算子法}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Canny算子法}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 边缘提取效果对比}{section.2.2}% 24
+\BOOKMARK [1][-]{section.2.3}{2.3 形态学运算}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 膨胀与腐蚀}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 开运算与闭运算}{section.2.3}% 27
+\BOOKMARK [0][-]{chapter.3}{第三章 \040OpenCV机器视觉库介绍}{}% 28
+\BOOKMARK [1][-]{section.3.1}{3.1 OpenCV简介}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{3.2 OpenCV发展历史}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.3}{3.3 OpenCV基本结构}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.4}{3.4 OpenCV数据结构}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.5}{3.5 OpenCV基本操作}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 矩阵操作}{section.3.5}% 34
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 基本图像操作}{section.3.5}% 35
+\BOOKMARK [3][-]{subsubsection.3.5.2.1}{3.5.2.1 图像读取}{subsection.3.5.2}% 36
+\BOOKMARK [3][-]{subsubsection.3.5.2.2}{3.5.2.2 图像翻转}{subsection.3.5.2}% 37
+\BOOKMARK [0][-]{chapter.4}{第四章 \040Data Matrix快速定位算法研究}{}% 38
+\BOOKMARK [1][-]{section.4.1}{4.1 主要思路}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{4.2 粗定位算法}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.3}{4.3 精确定位算法}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.4}{4.4 实验结果}{chapter.4}% 42
+\BOOKMARK [0][-]{chapter.5}{第五章 \040总结}{}% 43
+\BOOKMARK [1][-]{section.5.1}{5.1 工作总结}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{5.2 研究展望}{chapter.5}% 45
+\BOOKMARK [0][-]{appendix*.22}{参考文献}{}% 46
+\BOOKMARK [0][-]{appendix*.23}{致 \040谢}{}% 47
