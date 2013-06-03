@@ -1,13 +1,20 @@
 \begin{abstract}
+二维条码(2D Barcode)是用某种特定的几何图形按一定规律在平面（二维方向上）
+分布的黑白相间的图形记录数据信息的符号。不同于一维条码，其可以在纵向和横向两
+个方位同时表达信息，因此具有很大的信息密度。二维条码可以分为矩阵式和堆叠式二
+维条码。目前世界上主流的二维条码，有QR码（快速响应矩阵码）、Data Matrix码、
+PDF417码等。其中Data Matrix码由于可以在很小的空间内记录较多的信息，因此在工业流水线上有较多的应用。
 
+Data Matrix码由于其编码特点，识别较慢。现有的基于Hough直线检测的定位算法速度较慢，不能满足工业上实时性要求。本文提出了一个快速定位算法，并且基于OpenCV完成了设计和测试。经过实验，证明本算法可以满足工业实时性要求。
 
-\keywords{\LaTeX模板}
+同时，本文对二维码识别技术中涉及到的编码、图像处理以及开发用OpenCV都做了研究。
+
+\keywords{Data Matrix \quad 二维码 \quad 定位算法 \quad 图像处理}
 \end{abstract}
 
 
 \begin{englishabstract}
-Optics is an old and venerable subject involving the generation, propagation, and detection
-of light.
+This thesis develop a new fast method for Data Matrix localization
 
-\englishkeywords{\LaTeX Template}
+\englishkeywords{Data Matrix \quad 2-D barcode}
 \end{englishabstract}
