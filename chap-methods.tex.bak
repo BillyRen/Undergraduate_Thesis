@@ -144,9 +144,49 @@
 \label{fig:industry}
 \end{figure}
 
+\subsection{定位时间}
+对于定位时间的估计，我采取的方法是：在每种环境下，分别处理500张图像，计算其定位时间。
+
+详细定位时间统计见表（\ref{tab:time}）。
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c c c}\toprule
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  环境 & 粗定位（ms） & 精确定位(ms) & 总时间(ms) \\
+  \midrule
+  普通 & 0.5 & 0.5 & 1.0 \\
+  \midrule
+  倾斜 & 0.4 & 0.5 & 0.9 \\
+  \midrule
+  形变 & 0.5 & 1.0 & 1.5 \\
+  \midrule
+  旋转 & 0.6 & 0.7 & 1.3 \\
+  \midrule
+  高亮度 & 0.5 & 0.5 & 1.0 \\
+  \midrule
+  低亮度 & 0.5 & 0.5 & 1.0 \\
+  \midrule
+  模糊 & 0.5 & 0.5 & 1.0 \\
+  \midrule
+  噪声 & 0.5 & 0.5 & 1.0 \\
+  \midrule
+  复杂环境 & 1.5 & 0.5 & 2.0 \\
+  \midrule
+  工业环境 & 0.8 & 0.8 & 1.6 \\
+  \bottomrule
+\end{tabular}
+\end{center}
+\caption{不同环境平均定位时间}
+\label{tab:time}
+\end{table}
+
 \chapter{总结}
 \section{工作总结}
-本文主要从图像处理的角度出发，研究了二维码识别相关领域技术，提出了具有高容错性的快速定位算法。本文主要解决了如下几个问题：
+本文主要从图像处理的角度出发，研究了二维码识别相关领域技术，提出了具有高容错性的快速定位算法。
+
+本文主要解决了如下几个问题：
 
 （1）二维条码的粗定位
 

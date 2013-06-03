@@ -145,6 +145,35 @@ Data Matrix²ÉÈ¡ÁËReed-SolomonËã·¨À´½øÐÐÐ£ÑéºÍ¾À´í£¬ÔÚºÜ´ó³Ì¶ÈÉÏ¿ÉÒÔ»Ö¸´ÓÉÓÚËð»Ù¡
 \subsection{0/1Ê¶±ðºÍ½âÂë}
 Í¨¹ýÍø¸ñ»¯£¬¶ÔÌõÂëÐÅÏ¢½øÐÐ¶ÁÈ¡£¬²¢ÇÒ¸ù¾ÝÏàÓ¦µÄ±àÂë¹æÔò£¬Ê¶±ð³öÌõÂëÖÐËù°üº¬µÄÐÅÏ¢¡£
 
+\section{ÑÐ¾¿ÒâÒå}
+¹¤Òµ½ç¶ÔDMCÔ½À´Ô½ÒÀÀµ£¬Ô½À´Ô½ÆÈÇÐµØÐèÒªDMCÊ¶±ð·½·¨£¬¶øÏÖÓÐµÄÊ¶±ðËã·¨Ê±¼ä¸´ÔÓ¶È¸ß£¬ÈÝ´íÐÔ²î£¬²»ÄÜºÜºÃµÄÂú×ãÐèÇó¡£±¾ÑÐ¾¿ÊÔÍ¼½â¾öÕâÒ»Ã¬¶Ü£¬ÓÐ×Å¹ãÀ«µÄÊÐ³¡Ç°¾°¡£
+
+¶þÎ¬ÂëËäÈ»°üº¬µÄÐÅÏ¢Á¿´ó£¬µ«ÊÇÊ¶±ðÄÑ¶È´ó¡£Ò»·½ÃæÊÇÒòÎª¶þÎ¬ÂëµÄÊ¶±ðÐèÒª¶Ô±ß½ç½øÐÐ¾«È·¶¨Î»£»ÁíÒ»·½ÃæÒ²ÊÇÒòÎª¶þÎ¬ÂëÍùÍù´æÔÚÓÚ¸´ÔÓµÄ»·¾³ÖÐ¡£
+Ò»·½ÃæÊÇ×Ô¶¯»¯ºÍÊý×Ö»¯µÄÁ÷Ë®ÏßÉú²úÏµÍ³¶ÔDMC¿ìËÙÊ¶±ðËã·¨µÄÐèÇó£¬ÁíÒ»·½ÃæÊÇDMCÏÈÌìµÄÄÑÊ¶±ðÌØÕ÷¡£Á½ÕßÖ®¼äÃ¬¶ÜÊ®·ÖÇ¿ÁÒ¡£±¾ÎÄ¼´ÖÂÁ¦ÓÚÌá³öÒ»ÖÖÊÊÓÃÓÚ¹¤ÒµÁìÓòµÄDMCÂë¿ìËÙ¶¨Î»Ëã·¨¡£
+
+Ä¿Ç°£¬¹úÄÚÏÖÓÐµÄ¶Ô¶¨Î»Ëã·¨ÑÐ¾¿ÖÐ£¬¹Ø×¢¶¨Î»ËÙ¶ÈµÄ²¢²»ÊÇÌ«¶à¡£ÔÚÒÑÓÐµÄÑÐ¾¿ÖÐ£¬Ò¦ÁÖ²ý\cite{yaochanglin2011}´¦Àí640$\times$480Í¼ÏñµÄ¶¨Î»Ê±¼äÔÚ8.8ms, ×ÞÑØÐÂ\cite{zouyanxin2009data}µÄËã·¨Ê¶±ð320$\times$240Í¼ÏñºÄÊ±5ms×óÓÒ£¬Áõ·å\cite{liu2010robust}µÈÈËËã·¨Ê¶±ð320$\times$240Í¼ÏñºÄÊ±6.3ms¡£ÊÓ¾õÈí¼þHALCONµÄ¶¨Î»Ê±¼äÔÚ6ms\cite{yaochanglin2011}¡£Ò»°ãÀ´Ëµ£¬¶¨Î»ºÄÊ±Õ¼×ÜÊ¶±ðÊ±¼äµÄÒ»°ë×óÓÒ¡£ÈçÔÚ×ÞÑØÐÂµÄÊ±¼äÖÐ£¬Ê¶±ð×ÜÊ±¼äÎª5ms£¬ÆäÖÐ¶¨Î»Ê±¼äÔ¼Îª2.5ms¡£Ö÷ÒªËã·¨¶¨Î»Ê±¼ä¶Ô±ÈÈçÍ¼£¨\ref{tab:locate_time}£©ËùÊ¾¡£
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c c c}\toprule
+  \hline
+  ÑÐ¾¿Õß & Í¼Æ¬´óÐ¡ & ¶¨Î»ÀàÐÍ & ¶¨Î»Ê±¼ä \\
+  \midrule
+  Ò¦ÁÖ²ý & 640$\times$480 & ¶¨Î» & 8.8ms \\
+  \midrule
+  ×ÞÑØÐÂ & 320$\times$240 & Ê¶±ð & 5ms \\
+  \midrule
+  Áõ·å & 320$\times$240 & Ê¶±ð & 6.3ms \\
+  \midrule
+  HALCON & 640$\times$480 & ¶¨Î» & 6ms
+\end{tabular}
+\end{center}
+\caption{¹úÄÚÖ÷ÒªËã·¨¶¨Î»Ê±¼ä}
+\label{tab:locate_time}
+\end{table}
+
+±¾ÑÐ¾¿µÄÄ¿µÄÊÇÌá³öÒ»ÖÖ¿ìËÙµÄDMC¶¨Î»Ëã·¨£¬ÄÜ¹»´ïµ½¹¤ÒµÁìÓò¶ÔÊµÊ±ÐÔºÍÂ³°ôÐÔµÄÒªÇó£¬Îª½â¾öÊÐ³¡ÐèÇóÌá¹©ÀíÂÛÔ­ÐÍ¡£
+
 \chapter{¶þÎ¬ÌõÂëÖÐµÄÍ¼Ïñ´¦Àí·½·¨ºÍ¶¨Î»¼¼Êõ}
 \section{Ostu·¨£¨´ó½ò·¨£©}
 ×î´óÀà¼ä·½²î·¨ÊÇÓÉÈÕ±¾Ñ§Õß´ó½òÕ¹Ö®ÓÚ1979 ÄêÌá³öµÄ£¬ÊÇÒ»ÖÖ×ÔÊÊÓ¦µÄãÐÖµÈ·¶¨µÄ·½·¨,ÓÖ½Ð´ó½ò·¨£¬¼ò³ÆOTSU\cite{otsu1975threshold}¡£ËüÊÇ°´Í¼ÏñµÄ»Ò¶ÈÌØÐÔ,½«Í¼Ïñ·Ö³É±³¾°ºÍÄ¿±êÁ½²¿·Ö¡£±³¾°ºÍÄ¿±êÖ®¼äµÄÀà¼ä·½²îÔ½´ó£¬ËµÃ÷¹¹³ÉÍ¼ÏñµÄÁ½²¿·ÖµÄ²î±ðÔ½´ó,µ±²¿·ÖÄ¿±ê´í·ÖÎª±³¾°»ò²¿·Ö±³¾°´í·ÖÎªÄ¿±ê¶¼»áµ¼ÖÂÁ½²¿·Ö²î±ð±äÐ¡¡£Òò´Ë,Ê¹Àà¼ä·½²î×î´óµÄ·Ö¸îÒâÎ¶×Å´í·Ö¸ÅÂÊ×îÐ¡¡£
