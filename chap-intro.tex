@@ -389,6 +389,7 @@ Mat C = C.inv(); //Now C is its own inverse matrix
 Mat D = A.t(); //D is the transposed matrix of A **
 \end{lstlisting}
 
+\clearpage
 \subsection{基本图像操作}
 \subsubsection{图像读取}
 在OpenCV中，读取的图像都存放在cv::Mat类的一个对象中：
@@ -397,10 +398,11 @@ Mat D = A.t(); //D is the transposed matrix of A **
 cv::Mat image;
 image = cv::imread("img.jpg");
 if (!image.data){
-...
 }
-cv::namedWindow("Original Image");//Define the window
-cv::imshow("Original Image", image);//show the image
+//Define the window
+cv::namedWindow("Original Image"); 
+//show the image
+cv::imshow("Original Image", image); 
 \end{lstlisting}
 
 \subsubsection{图像翻转}
