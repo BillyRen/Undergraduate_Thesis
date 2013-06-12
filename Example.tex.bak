@@ -1,4 +1,4 @@
-\documentclass[dvipdfm]{ZJUthesis}alec1997neuralalec1997neuralalec1997neural
+\documentclass[dvipdfm]{ZJUthesis}
 \usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}   % 调整页边距
 \usepackage{amssymb}
 \setcounter{tocdepth}{3}
@@ -35,7 +35,7 @@
 
 % 中文封面内容
 
-  \title{DataMatrix 快速定位算法研究}
+  \title{Data Matrix 快速定位算法研究}
   \author{任成斌 \quad 3090000375}
   \supervisor{刘旭 \quad 教授}
   \major{信息工程(光电) 09级}
