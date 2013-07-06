@@ -87,7 +87,7 @@ Data MatrixÂëÊÇÊ¹ÓÃ×îÎª¹ã·ºµÄ¶şÎ¬ÌõÂëÖ®Ò»¡£ÓÉÓÚÆä×îĞ¡³ß´çÊÇÄ¿Ç°ËùÓĞ¶şÎ¬ÂëÖĞ×îĞ¡µ
 
 ºúÏşá´µÈÈË»ùÓÚJava¿ª·¢ÁËÒ»Ì×DMÂëÊ¶±ğ·½°¸\cite{huxiaodong2008}£¬ÎªÒÔºó½«¸ÃÏµÍ³ÒÆÖ²µ½ÊÖ»úÆ½Ì¨´òÏÂÁË»ù´¡¡£ËûÃÇµÄËã·¨Ö÷Òª°üÀ¨£ºÔ¤´¦Àí¡¢³õ¶¨Î»ºÍ¾«È·¶¨Î»¡£²ÉÓÃHough±ä»»ÇóÈ¡ÌõÂëµÄĞı×ª½Ç¶È; ËûÃÇµÄÁ÷³ÌÈçÍ¼(\ref{fig:hu})ËùÊ¾.
 
-\begin{figure}[htbp]
+\begin{figure}[htb]
 \begin{center}
 	\includegraphics[width=0.8\linewidth]{hu_flowchart.png}
 \end{center}
@@ -389,6 +389,7 @@ Mat C = C.inv(); //Now C is its own inverse matrix
 Mat D = A.t(); //D is the transposed matrix of A **
 \end{lstlisting}
 
+\clearpage
 \subsection{»ù±¾Í¼Ïñ²Ù×÷}
 \subsubsection{Í¼Ïñ¶ÁÈ¡}
 ÔÚOpenCVÖĞ£¬¶ÁÈ¡µÄÍ¼Ïñ¶¼´æ·ÅÔÚcv::MatÀàµÄÒ»¸ö¶ÔÏóÖĞ£º
@@ -397,10 +398,11 @@ Mat D = A.t(); //D is the transposed matrix of A **
 cv::Mat image;
 image = cv::imread("img.jpg");
 if (!image.data){
-...
 }
-cv::namedWindow("Original Image");//Define the window
-cv::imshow("Original Image", image);//show the image
+//Define the window
+cv::namedWindow("Original Image");
+//show the image
+cv::imshow("Original Image", image);
 \end{lstlisting}
 
 \subsubsection{Í¼Ïñ·­×ª}
